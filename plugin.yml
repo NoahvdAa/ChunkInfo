@@ -1,0 +1,14 @@
+name: ChunkInfo
+main: me.noahvdaa.chunkinfo.ChunkInfo
+version: 1.0.0
+author: NoahvdAa
+api-version: 1.13
+commands:
+   chunk:
+      description: Get information about a certain chunk.
+      usage: /chunk [x] [z] [world]
+      aliases: ['chunkinfo']
+permissions:
+  chunkinfo.use:
+    description: Use the /chunk command.
+    default: op
